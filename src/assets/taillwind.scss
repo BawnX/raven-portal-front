@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  @font-face {
+    font-family: 'Sora';
+    font-weight: 400;
+    src: url("./font-family/Sora-VariableFont_wght.ttf");
+  }
+
+  html{
+    @apply font-sora;
+    background-color: #F2F5FB;
+  }
+}
+
