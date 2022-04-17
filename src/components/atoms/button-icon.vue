@@ -14,7 +14,7 @@ const props = defineProps({
     type: Boolean
   },
   textShow: {
-    default: true,
+    default: "",
     type: String
   }
 })
